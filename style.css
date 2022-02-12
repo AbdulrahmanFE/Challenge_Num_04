@@ -43,7 +43,7 @@ body {
   color: white;
   background-color: var(--CardBackground);
   max-width: 1100px;
-  border-radius: 13px;
+  border-radius: 8px;
   overflow: hidden;
 }
   @media (max-width: 767px) {
@@ -79,7 +79,7 @@ body {
   .description {
     color: var(--MainParagraph);
     margin: 25px auto 64px;
-    padding-right: 100px;
+    padding-right: 80px;
     font-size: 0.938rem;
     line-height: 24px;
   }
@@ -134,7 +134,7 @@ body {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: hsl(277deg 64% 61% / 85%);
+    background-color: hsl(277deg 64% 61% / 75%);
     z-index: 1;
     mix-blend-mode: multiply;
   }
