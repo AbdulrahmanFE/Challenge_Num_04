@@ -55,8 +55,8 @@ body {
   }
 /* Start left Section */
   .left-section {
-    flex-basis: 53%;
-    padding: 70px 64px;
+    flex-basis: 52%;
+    padding: 70px;
   }
   @media (max-width: 767px) {
     .left-section {
@@ -124,7 +124,7 @@ body {
   }
 /* Start Right Section */
   .image {
-    flex-basis: 47%;
+    flex-basis: 48%;
     position: relative;
   }
   .image::before {
@@ -134,7 +134,7 @@ body {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: var(--SoftViolet);
+    background-color: hsl(277deg 64% 61% / 85%);
     z-index: 1;
     mix-blend-mode: multiply;
   }
