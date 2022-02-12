@@ -65,7 +65,7 @@ body {
   }
   .title {
     font-weight: 700;
-    font-size: 2.4rem;
+    font-size: 2.275rem;
     line-height: 45px;
   }
   @media (max-width: 767px) {
@@ -92,7 +92,7 @@ body {
   }
   .stats {
     display: flex;
-    gap: 48px;
+    gap: 40px;
   }
   @media (max-width: 767px) {
     .stats {
@@ -112,12 +112,12 @@ body {
   }
   .stats .number {
     font-weight: 700;
-    font-size: 1.37rem;
+    font-size: 1.4rem;
     padding: 7px 0;
   }
   .stats .stat {
     color: var(--StatsHeading);
-    font-size: 0.675rem;
+    font-size: 0.65rem;
     letter-spacing: 0.0675rem;
     font-family: "Lexend Deca", sans-serif;
     font-weight: 400;
@@ -134,7 +134,7 @@ body {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: rgb(170 92 219 / 60%);
+    background-color: rgb(170 92 219 / 40%);
     z-index: 1;
   }
   @media (max-width: 767px){
