@@ -56,7 +56,7 @@ body {
 /* Start left Section */
   .left-section {
     flex-basis: 53%;
-    padding: 60px;
+    padding: 64px;
   }
   @media (max-width: 767px) {
     .left-section {
@@ -113,7 +113,7 @@ body {
   .stats .number {
     font-weight: 700;
     font-size: 1.4rem;
-    padding: 7px 0;
+    padding: 8px 0;
   }
   .stats .stat {
     color: var(--StatsHeading);
